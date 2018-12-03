@@ -1,4 +1,6 @@
-# rustBlog
+# rust_blog
+
+rust博客系统，欢迎朋友们一起加入贡献！欢迎加qq群：945017397
 
 Once the container is running, open http://0.0.0.0:8001/ in your web browser.
 
