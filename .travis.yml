@@ -6,7 +6,7 @@ rust:
 - nightly
 cache: cargo
 before_script:
-- git clone https://github.com/clux/posts.git
+- git clone https://github.com/shirdonliao/rustBlog/posts.git
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker pull clux/muslrust:nightly
 script:

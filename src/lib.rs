@@ -1,10 +1,12 @@
-//! This is the rust doc for the `blog` *library* - what the `blog` *binary*
-//! depends on to get posts, and convert markdown to html properly.
-//!
-//! For documentation on using the blog binary, see
-//! [the main readme](https://github.com/clux/blog/blob/rust/README.md).
-//! The [entry point is main.rs](https://github.com/clux/blog/blob/rust/src/main.rs).
-//!
+// +----------------------------------------------------------------------
+// | Fighting for great , building a better edu framework
+// |
+// | Share with each other!
+// |
+// | Email:823923263@qq.com
+// +----------------------------------------------------------------------
+// | Author: ShirDon <http://www.shirdon.com>
+// +----------------------------------------------------------------------
 //! ## Strategy
 //! All markdown files are read at startup by globbing for README.md in
 //! the posts/ directory. These files are converted to HTML and stored

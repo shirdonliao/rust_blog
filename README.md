@@ -1,32 +1,13 @@
-# blog
-[![build status](https://secure.travis-ci.org/clux/blog.svg)](http://travis-ci.org/clux/blog)
-[![docker pulls](https://img.shields.io/docker/pulls/clux/blog.svg)](
-https://hub.docker.com/r/clux/blog/)
-[![docker image info](https://images.microbadger.com/badges/image/clux/blog.svg)](http://microbadger.com/images/clux/blog)
-[![docker tag](https://images.microbadger.com/badges/version/clux/blog.svg)](https://hub.docker.com/r/clux/blog/tags/)
+# rustBlog
 
-Dockerised rust blog serving content from a [directory of markdown posts](https://github.com/clux/posts).
-
-## [documentation](http://clux.github.io/blog)
-
-## Deploying
-Pull docker image and run:
-
-```sh
-docker pull clux/blog
-docker run -p 8000:80 -t --rm clux/blog
-```
-
-Once the container is running, open http://0.0.0.0:8000/ in your web browser.
-
-The production build of this blog is entirely self-contained (`FROM scratch` - statically linked using [muslrust](https://github.com/clux/muslrust)), and uses no database.
+Once the container is running, open http://0.0.0.0:8001/ in your web browser.
 
 ## Developing
 Clone this repo, the dependent post repo, then build and link.
 
 ```sh
-git clone git@github.com:clux/blog.git && cd blog
-git clone git@github.com:clux/posts.git
+git clone git@github.com:shirdonliao/rust_blog.git && cd rust_blog
+git clone git@github.com:shirdonliao/rust_blog/posts.git
 rustup override set $(cat .rustup)
 cargo build
 cargo run
@@ -39,11 +20,4 @@ cargo run
 cargo fmt
 cargo test
 cargo doc
-```
-
-Check that the docker version works:
-
-```sh
-make build
-make run
 ```

@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
         <link rel="stylesheet" href="/dist/css/normalize.min.css">
         <link rel="stylesheet" href="/dist/css/main.css">
-        <title>{% block title %}{% endblock title %} - clux</title>
+        <title>{% block title %}{% endblock title %} - rustBlog</title>
         {% block head %}{% endblock head %}
 
         <!--[if lt IE 9]>
@@ -26,7 +26,7 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title"><a href="/e">clux/blog</a></h1>
+                <h1 class="title"><a href="/e">Shirdonliao's rust_blog</a></h1>
                 <nav>
                     <ul>
                         <li><a href="/e">entries</a></li>

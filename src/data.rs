@@ -1,3 +1,13 @@
+// +----------------------------------------------------------------------
+// | Fighting for great , building a better edu framework
+// |
+// | Share with each other!
+// |
+// | Email:823923263@qq.com
+// +----------------------------------------------------------------------
+// | Author: ShirDon <http://www.shirdon.com>
+// +----------------------------------------------------------------------
+
 use glob::glob;
 use regex::Regex;
 use serde_json;

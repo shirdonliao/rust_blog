@@ -1,11 +1,11 @@
 [package]
-authors = ["Eirik Albrigtsen <sszynrae@gmail.com>"]
-name = "blog"
+authors = ["ShirdonLiao <823923263@qq.com>"]
+name = "rust_blog"
 version = "0.1.0"
 
 [[bin]]
 doc = false
-name = "blog"
+name = "rust_blog"
 path = "src/main.rs"
 
 [dependencies]

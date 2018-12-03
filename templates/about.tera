@@ -1,6 +1,6 @@
 {% extends "base" %}
 
-{% block title %}clux/blog about{% endblock title %}
+{% block title %}rustBlog about{% endblock title %}
 
 {% block content %}
 <article>
@@ -29,8 +29,8 @@
   <section>
     <p>Please report bugs or post issues at:</p>
     <ul>
-      <li><a href="https://github.com/clux/blog/issues">blog</a></li>
-      <li><a href="https://github.com/clux/posts/issues">posts</a></li>
+      <li><a href="https://github.com/shirdonliao/rustBlog/issues">blog</a></li>
+      <li><a href="https://github.com/shirdonliao/rustBlog/issues">posts</a></li>
     </ul>
   </section>
 </article>
